@@ -1,0 +1,36 @@
+.projects{
+    max-width: 1800px;
+    width: 70%;
+    margin: 20px auto;
+}
+.projects h1{
+    font-size: 45px;
+    text-align: left;
+}
+@media (max-width:1300px){
+    .projects{width: 90%;}
+}
+@media (max-width:999px){
+    .projects{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects h1{
+        font-size: 35px;
+        text-align: left;
+}
+}
+@media (max-width:500px){
+    .projects{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects h1{
+        font-size: 35px;
+        text-align: left;
+}
+}

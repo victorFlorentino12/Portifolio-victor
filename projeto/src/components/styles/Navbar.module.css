@@ -1,0 +1,110 @@
+header a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3;
+    cursor: pointer;
+    scroll-behavior: smooth;
+    
+}
+header a:hover{
+    opacity: 0.6;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+}
+.nav_icons{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.nav_list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+.nav_icons li{
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+.icon{
+    font-size: 20px;
+}
+/* menu responsive */
+.mobile_menu{
+    cursor: pointer;
+    display: none;
+    margin-right: 8vh;
+}
+.mobile_menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+    transition: 0.5s;
+}
+@media (max-width:999px) {
+.logo{
+        margin: auto;
+    }
+nav{
+        background: #23232e;
+        transition: 0.5s ease-in;
+    }
+
+.nav_list{
+        position: absolute;
+        top: 4vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+    }
+.nav_icons{
+        display: none;
+
+    }
+.nav_list li{
+        margin-left: 0;
+        opacity: 1;
+    }
+.nav_icons li{
+        margin-left: 0;
+        opacity: 1;
+    }
+.mobile_menu{
+        display: block;
+        
+    }
+.nav_active{
+        transform: translateX(0);
+    }
+    /* toggler icon aniation */
+.toggle .line1{
+    transform: rotate(-45deg) translate(-7px, 6px);
+    transition: 0.5s;
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-7px, -6px);
+    transition: 0.5s;
+}
+}

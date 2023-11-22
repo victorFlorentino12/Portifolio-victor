@@ -1,0 +1,19 @@
+.div_footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    margin-top: 15vh;
+}
+.div_footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around   
+}
+.icon{
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+}

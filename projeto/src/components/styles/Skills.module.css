@@ -1,0 +1,44 @@
+.skills{
+    background: rgba(1, 9, 28, 0.75);
+    border-radius: 15px;
+    padding: 20px 15px;
+    width: 70%;
+    margin: 15vh auto;
+    max-width: 1800px;
+}
+.skills h1{
+    font-size: 45px;
+}
+.image{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 15px;
+}
+.image img{
+    max-height: 140px;
+    margin-left: 5vh;
+    margin-top: 10px;
+    
+
+}
+.image img:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+}
+@media (max-width:999px){
+    .skills h1{
+        font-size: 35px;
+    }
+
+}
+@media (max-width:500px){
+    .image img{
+        margin-left: 5px;
+        max-width: 70px;
+    }
+    .skills{
+        margin: 5vh auto;
+    }
+}
