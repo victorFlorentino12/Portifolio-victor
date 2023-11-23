@@ -1,3 +1,38 @@
+## Link of site
+
+https://portifolio-victor-jx94.vercel.app/
+
+# My Portfolio
+
+## Project Description
+
+This portfolio website was built entirely using **React**, a JavaScript library for building user interfaces. The site is composed of various React components, demonstrating the ability to create a complex and responsive single-page application (SPA).
+
+## Technologies Used
+
+- **React**: Used to build the user interface with reusable components.
+- **React Router**: Used for navigation in the single-page application.
+- **Styled Components**: Used to style the components.
+
+## Components
+
+The site is composed of various components, including:
+
+1. **Header**: Displays the site name and navigation.
+2. **About Section**: Provides information about me and my skills.
+3. **Projects Section**: Displays a list of my projects.
+4. **Contact Section**: Provides contact information and a form for sending messages.
+
+Each component was carefully designed with reusability in mind, allowing for a consistent user experience throughout the site.
+
+## Conclusion
+
+This project demonstrates my ability to create a complex and responsive website using React. I look forward to applying these skills to future projects.
+
+## Image of site
+
+![image](https://github.com/victorFlorentino12/Portifolio-victor/assets/140027327/15863a6d-6331-4580-a939-49c0141c6a8e)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
