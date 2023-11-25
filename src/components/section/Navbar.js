@@ -31,9 +31,9 @@ function Navbar() {
           <li><a href='/'><Nav.Link href='#project'>Projetos</Nav.Link></a></li>
         </ul>
         <ul className={styler.nav_icons}>
-          <li><a href='https://www.instagram.com/victorflorentino52/'><FaInstagram className={styler.icon}/></a></li>
-          <li><a href='https://github.com/victorFlorentino12'><AiFillGithub className={styler.icon}/></a></li>
-          <li><a href='https://www.linkedin.com/in/victor-florentino-06a462196/'><GrLinkedin className={styler.icon}/></a></li>
+          <li><a href='https://www.instagram.com/victorflorentino52/' target='_blank'><FaInstagram className={styler.icon}/></a></li>
+          <li><a href='https://github.com/victorFlorentino12' target='_blank'><AiFillGithub className={styler.icon}/></a></li>
+          <li><a href='https://www.linkedin.com/in/victor-florentino-06a462196/' target='_blank'><GrLinkedin className={styler.icon}/></a></li>
         </ul>
       </nav>
     </header>
