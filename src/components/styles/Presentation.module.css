@@ -13,6 +13,9 @@
 }
 
 @media (max-width:700px){
+    .presentation h1{
+        height: 40px;
+    }
     .presentation{
         width: 80%;
         text-align: center;
